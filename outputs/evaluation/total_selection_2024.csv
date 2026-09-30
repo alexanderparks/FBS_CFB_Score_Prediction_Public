@@ -1,0 +1,8 @@
+model,selection_mae
+Stacking Ensemble,12.781759885043959
+Gradient Boosting,12.785293720199249
+Elastic Net,12.797655705023415
+Ridge,12.827708379850987
+Neural Network,12.861239531285182
+RBF Support Vector Regression,12.898464116609253
+Random Forest,12.924910066571485

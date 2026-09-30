@@ -1,0 +1,17 @@
+.env
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# API data is recreated locally and is not redistributed with the repository.
+data/raw/**/*.json
+data/interim/*.csv
+data/processed/modeling_table.csv
+
+# Row-level evaluation exports retain substantial source data.
+outputs/evaluation/calibration_predictions.csv
+outputs/evaluation/market_comparison_2025.csv
+outputs/evaluation/test_predictions_2025.csv
